@@ -1,72 +1,110 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chaltu Mamo</title>
+    <title>Chaltu Mamo | DevOps Engineer</title>
+
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <section id="about-me">
-        <nav>
-            <div class="personal__logo">Chaltu </div>
-            <ul class="nav__link--list">
-                <li>
-                    <a href="" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Languages</a>
-                </li>
-                <li>
-                    <a href="" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Project</a>
-                </li>
-                <li>
-                    <a href="" class="
-                    nav__link--anchor
-                    nav__link--anchor-primary
-                    ">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="flex-1">
-            <div class="about-me__info row">
-            <div class="about-me__info--container">
-                <figure class="about-me__picture--mask">
-                    <img src="./photo.jpg" class="about-me__picture" alt="picture of me">
-                </figure>
-                <h1 class="about-me__info--title">
-                    Hey! I'm <span class="text--purple">Chaltu Mamo</span>
-                </h1>
-                <p class="about-me__info--para">
-                    I'm a <strong class="text--purple ">frontend software engineer</strong> with a strong passion for building responsive and performance that positively impact the world.
-                      
-                </p>
-                <div class="about-me__links">
-                    <a href="" class="about-me__link">
-                        <i class="fab fa-linkedin-in"></i>   
-                    </a>
-                    <a href="" class="about-me__link">
-                        <i class="fab fa-github"></i>   
-                    </a>
-                    <a href="" class="about-me__link">
-                        <i class="far fa-envelope"></i>   
-                    </a>
-                    <a href="" class="about-me__link">
-                        <i class="fas fa-file-pdf"></i>   
-                    </a>
-                    </div> 
-                </div>
-                <figure class="about-me__img--container">
-                    <img src="./undraw_working_remotely_re_6b3a.svg" class="about-me__img" alt="">
-                </figure>
-            </div>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">Chaltu Mamo</div>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="about" class="hero">
+
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Chaltu Mamo</span></h1>
+
+        <p>
+            Aspiring <strong>DevOps Engineer</strong> passionate about 
+            Cloud Computing, CI/CD pipelines, Kubernetes, Docker, and Linux infrastructure automation.
+        </p>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
         </div>
-    </section>
+
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="./undraw_working_remotely_re_6b3a.svg" alt="DevOps Illustration">
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill">Linux</div>
+        <div class="skill">Git & GitLab</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">CI/CD</div>
+        <div class="skill">AWS Basics</div>
+        <div class="skill">Python</div>
+        <div class="skill">Networking</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>CI/CD Pipeline</h3>
+            <p>Automated build and deployment using GitLab CI/CD for containerized apps.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Kubernetes Cluster</h3>
+            <p>Deployed scalable microservices using Kubernetes and Docker containers.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Monitoring System</h3>
+            <p>Implemented system monitoring using Prometheus and Grafana dashboards.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Let’s work together on DevOps, Cloud, or Automation projects.</p>
+
+    <div class="contact-box">
+        <p>Email: chaltu@example.com</p>
+        <p>Phone: +251-XXX-XXX-XXX</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Chaltu Mamo | DevOps Engineer</p>
+</footer>
+
 </body>
 </html>
