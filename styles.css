@@ -7,7 +7,7 @@
     box-sizing: border-box;
 
 }
-h1,h2,h3,h4,h5,h,span{
+h1, h2, h3, h4, h5, h, span {
     color: #242424;
     text-align: center;
     line-height: 1.25;
@@ -26,7 +26,7 @@ li{
 .flex{
     display: flex;
 }
-.flex1{
+.flex-1{
     flex: 1; 
 }
 .row{
@@ -100,7 +100,6 @@ nav{
 }
 .about-me__picture{
     width: 100;
-
     transform: scale(1.5);
     padding-top: 8px;  
 }
@@ -122,8 +121,13 @@ nav{
 .about-me__img--container{
     flex: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+nav {
+    padding: 0 20px;
 }
 .about-me__img{
     width: 1000;
+    max-width: 500px;
 }
