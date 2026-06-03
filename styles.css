@@ -102,6 +102,12 @@ nav{
     line-height:1.8;
     max-width:650px;
 }
+.hero-subtitle{
+    font-size:22px;
+    color:#38bdf8;
+    margin-bottom:20px;
+    font-weight:600;
+}
 
 .social-links{
     margin-top:30px;
